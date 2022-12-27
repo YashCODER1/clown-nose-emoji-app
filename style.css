@@ -1,0 +1,29 @@
+h1{
+    font-size: 25px !important; 
+}
+
+.btn-success:hover{
+    background-color: red;
+}
+
+canvas{
+    animation-name: example;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes example{
+    from{box-shadow: 1px 1px 38px blue;}
+    to{box-shadow: 1px 1px 38px red;}
+}
+
+.copyright-footer{
+    position:fixed;
+    color:white;
+    bottom:0;
+    width:100%;
+    background-color:grey;
+    line-height:3;
+    text-align:center;
+    font-family:Special Elite;
+}
